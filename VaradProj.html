@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Contact Form Submission</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Send Email</h1>
+        <form action="https://formsubmit.co/varad.d.patil@email.com" method="POST">
+                 <label for="emailTO">To:      </label>
+			<input type="email" name="emailTO" placeholder="" required><br><br>
+                 <label for="emailCC">Cc:      </label>
+            <input type="email" name="emailCC" placeholder="" required><br><br>
+                <label for="emailBCC">Bcc:     </label>
+            <input type="email" name="emailBCC" placeholder=" " required><br><br>
+            <label for="emailSubject">Subject: </label>
+			<input type="text" name="emailSubject" placeholder=" " required><br><br>
+                 <label for="Message">Message: </label>
+            <textarea name="Message" placeholder=" " required></textarea><br><br><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
